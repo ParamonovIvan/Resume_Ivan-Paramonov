@@ -128,7 +128,7 @@ gallery.addEventListener('mouseup', handleTouchEnd);
 window.addEventListener('mouseup', globalTouchEnd);
 
 let images = [
-  "img/icons/section_8-1/1.jpeg",
+  "img/icons/section_8-1/1.jpg",
   "img/icons/section_8-1/2.png",
   "img/icons/section_8-1/3.jpg",
   "img/icons/section_8-1/4.jpg",
@@ -145,10 +145,10 @@ let images = [
   "img/icons/section_8-1/15.jpg",
   "img/icons/section_8-1/16.jpg",
   "img/icons/section_8-1/17.jpg",
-  "img/icons/section_8-1/18.jpeg",
-  "img/icons/section_8-1/19.jpeg",
+  "img/icons/section_8-1/18.jpg",
+  "img/icons/section_8-1/19.jpg",
   "img/icons/section_8-1/20.jpg",
-  "img/icons/section_8-1/21.jpeg",
+  "img/icons/section_8-1/21.jpg",
   "img/icons/section_8-1/22.jpg",
   "img/icons/section_8-1/23.jpg",
   "img/icons/section_8-1/24.jpg"

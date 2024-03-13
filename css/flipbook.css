@@ -4,8 +4,8 @@
 }
 
 .book-section > .container {
-  height: calc(var(--index)*25);
-  width: calc(var(--index)*38);
+  height: calc(var(--index)*22);
+  width: calc(var(--index)*33);
   position: relative;
   left: 50%;
   transform: translateX(-50%);

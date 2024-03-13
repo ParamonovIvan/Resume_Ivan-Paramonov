@@ -2830,6 +2830,10 @@
 
 
 @media only screen and (max-width: 768px) {
+  .main-head h1, .homesect .section-head h2 {
+    line-height: 50px;
+  }
+
   .s8-item {
     margin-bottom: 35px;
   }

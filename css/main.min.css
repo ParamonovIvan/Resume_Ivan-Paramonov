@@ -2424,6 +2424,7 @@
 }
 
 .video_wrapper {
+  margin-top: 30px;
   position: relative;
   padding-bottom: 56.25%;
   height: 0;

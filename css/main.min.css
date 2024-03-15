@@ -2816,10 +2816,6 @@
     top: 50px;
   }
 
-  .top-line {
-    min-height: 140px;
-  }
-
   .section_1 .s1-bottom .info-item,
   .section_3 .s1-bottom .info-item {
     height: auto !important;
@@ -2920,12 +2916,12 @@
     margin-top: 8px;
   }
 
-  .logo img {
-    width: 70px;
+  .top-line {
+    min-height: 70px;
   }
 
-  .top-line {
-    padding-top: 25px;
+  .logo img {
+    width: 70px;
   }
 
   .s2-item-wrap {

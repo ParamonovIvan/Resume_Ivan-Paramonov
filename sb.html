@@ -1,0 +1,2029 @@
+﻿<!DOCTYPE html>
+<html lang="end">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Ivan Paramonov</title>
+
+  <!-- Bootstrap v3.3.4 Grid Styles -->
+  <style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header class="main-head" style="background-image: url(img/header_bg.jpg);">	
+    <div class="top-line">		
+      <div class="container">			
+        <div class="row row_header">
+			
+          <div class="col-md-3 col-sm-3 col-xs-3">
+            <a href="#" class="logo"><img src="img/logo.svg" alt="Paranoid Brewery"></a>
+          </div>
+
+	  <div class="col-lg-2 col-md-12 col-sm-9 col-xs-9 col-lg-push-7">
+	    <div class="language-wrap">
+              <div class="language">
+                <a href="https://paramonovivan.github.io/res/en.html"><img src="img/countries/usa.svg" alt="usa"></a>
+                <a href="https://paramonovivan.github.io/res/sb.html"><img src="img/countries/serbia.svg" alt="serbia"></a>
+                <a href="https://paramonovivan.github.io/res/ru.html"><img src="img/countries/russia.svg" alt="russia"></a>
+              </div>
+	      <a href="#" class="toggle-mnu hidden-lg"><span></span></a>
+	    </div>
+	  </div>        
+
+          <div class="col-lg-7 col-md-1 col-lg-pull-2">
+            <nav class="main-mnu">
+              <ul>
+                <li><a href="#about_me">O MENI</a></li>
+                <li><a href="#brewing">PIVARSTVO</a></li>
+                <li><a href="#awards">NAGRADE</a></li>
+                <li><a href="#reviews">RECENZIJE</a></li>
+                <li><a href="#other">OSTALO</a></li>
+                <li><a href="#contacts">KONTAKT</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header-wrap">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-8">
+            <div class="header-left">
+              <h1>Ivan Paramonov</h1>
+              <ul>
+		<li>Brever</li>
+		<li>Saksofonista</li>
+		<li>Frontend programer</li>
+                <li>Graditelj</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="my-foto">
+              <img src="img/ivpa.jpg" alt="Ivan Paramonov">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow-wrap">
+      <div class="arrow-bottom"></div>
+    </div>
+  </header>
+
+  <section class="homesect section_1" id="about_me">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>O MENI</h2>
+          <p>
+            Veliki pozdrav! Moje ime je Ivan Paramonov. Nalazite se na sajtu koji sam sam razvio za Vas da se upoznamo, pošto sam sada u Rusiji.
+            Ukratko o meni: Rođen sam 1991. godine u malom gradu u Permskoj oblasti. Od detinjstva sam aktivan, radoznao i otvorenog uma. 
+            Školu je završio sa medaljom „Za posebna dostignuća u učenju“, dobio počasnu nagradu „Zlatna omladina grada“, upisao Univerzitet i diplomirao sa počasti. 
+            Volim sport, naučio sam da sviram saksofon i od 2017. sam se ozbiljno počeo baviti pivarstvom.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="section-content">
+      <div class="container">
+        <div class="row_section_1">
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item info-item-h">
+              <h3>RADNO ISKUSTVO</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Inženjer tehničkog nadzora</h4>
+              <p>“Izhevsk Construction Compani LLC” | 2014 - 2016</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Inženjer proizvodno-tehničkog odeljenja</h4>
+              <p>"Trust "Uralstalkonstrukcija SMU-7 LLC" | 2016 - 2017</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Vodeći inženjer za održavanje i eksploataciju zgrada i objekata</h4>
+              <p>AD “Koncern Kalašnjikov“ | 2018 – 2024</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="s1-bottom-triangle">
+	<img class="work-logo hidden-xs" src="img/icons/section_1/work.svg" alt="Work">
+        <img class="studies-logo hidden-xs" src="img/icons/section_1/studies.svg" alt="Studies">
+      </div>
+    </div>
+
+    <div class="s1-bottom">
+      <div class="container">
+        <div class="row_section_1">
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item info-item-h">
+              <h3>OBRAZOVANJE</h3>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Tehnološki institut Čajkovskog Iževski državni tehnički univerzitet “M.T. Kalašnjikov”</h4>
+              <p>Specijalnost: građevinarstvo. Diploma više škole, 2009-2013</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Iževski državni tehnički univerzitet  “M.T. Kalašnjikov”</h4>
+              <p>Specijalnost: Upravljanje projektima u građevinarstvu. Master akademske studije, 2013—2015</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Međuregionalni informativni centar</h4>
+              <p>Usavršavanje, 2023</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <h4>Skill Factory</h4>
+              <p>Sertifikat o specijalnosti “Frontend programer PRO”, 2023-2024</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect section_2" id="brewing">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>PIVARSTVO (BREVING)</h2>
+          <p>
+            Prvi put sam probao zanatsko pivo 2015. i onda proveo 2 godine degustirajući sve vrste koje sam upoznao. Rezultat je bilo više od 400 vrsta, što je podrazumevalo potapanje u zanatsko pivo i potpuno sam se zaljubio u pivo. 
+            Želeo sam da postanem više od običnog degustatora. U 2017. kupio sam opremu, proveo sate na pivskim forumima (uključujući forumi na engleskom), komunicirao sa pivarima i počeo da pravim pivo. 
+            Svaki dan posle posla, u bilo koje slobodno vreme i vikendom, radim ovo što me oduševljava  - ručno drobim slad, nosim vodu iz izvora, eksperimentišem sa hmeljem i kvascom i kuvaju na šporetu 8 sati u nadi da ću dobiti savršeno piće.
+            Zapremina mog piva je bila 40 litara i odmah se rasprodala, prvo među prijateljima i poznanicima, a zatim pivski štreberi i vlasnici malih zanatskih pivskih barova počeli su da se interesuju za mene. Moj stil je postao prepoznatljiv, pojavila se stabilna potražnja.
+            Pošto svaki put izazivam sebe i ne biram samo jedan stil, savladao sam ih oko 350 sorti, što je iznosilo 12 tona gotovih proizvoda. Moj cilj nije samo da kuvam zanatsko pivo na prodaju, i da kuvam neobične, ponekad zaboravljene i nepopularne sorte da iznenadim kombinacijama sastojaka, i pisati recepte, i usavršavati umetnost pivarstva razvijajući je kulture. 
+            Vrste koje kuvam:
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="s_wrap">
+      <div class="s2-items">
+        <div class="container">
+          <div class="s2-items-container">
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/wheat.svg" alt="wheat">
+              </span>
+              <span class="s2-item-text">Wheat Beer (Hefeweizen, Blanche)</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/pale.svg" alt="pale ale">
+              </span>
+              <span class="s2-item-text">Pale Ale, Bitter, Pumpkin Ale</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/ipa.svg" alt="ipa">
+              </span>
+              <span class="s2-item-text">American Pale Ale, India Pale Ale, Milkshake IPA, New England IPA, DIPA, American Amber Ale, New Zealand IPA, Black IPA, Rye IPA, White IPA</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/porter.svg" alt="porter">
+              </span>
+                <span class="s2-item-text">London Porter, American Porter, Coconut Porter, Smoked Porter, Honey Imperial Porter (Braggot)</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/stout.svg" alt="stout">
+              </span>
+                <span class="s2-item-text">Dry Stout, Sweet Stout, Oatmeal Stout, Imperial Stout, Chocolate Stout, Maple Stout, Coffee Stout, White Stout, Marshmallow Stout</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/belgian.svg" alt="belgian">
+              </span>
+                <span class="s2-item-text">Abbay Ale, Saison, Belgian Blond Ale, Dubbel, Tripel, Quadrupel</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/barrel.svg" alt="barrel">
+              </span>
+                <span class="s2-item-text">Barleywine, Wheatwine, Ryewine Strong Scotch Ale</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/wild.svg" alt="wild">
+              </span>
+                <span class="s2-item-text">Wild Ale, Sour Brett Ale</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/tomato.svg" alt="tomato">
+              </span>
+                <span class="s2-item-text">Gose, Tomato Gose, Berry Gose</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/spruce.svg" alt="spruce">
+              </span>
+                <span class="s2-item-text">Christmas Ale, Winter Warmer, Gruit, Spruce Ale</span>
+            </div>
+
+            <div class="s2-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_2/mead.svg" alt="mead">
+              </span>
+                <span class="s2-item-text">Braggot</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="homesect section_2-1">
+    <div class="showcase">
+      <div class="showcase__logo__wrapper">KOLEKCIJA PIVA <span>2021</span></div>
+      <div class="showcase__content-wrapper">
+        <div class="showcase__content">
+          <div class="showcase-carousel">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide showcase-carousel__item">
+                <div class="showcase-carousel__image-wrapper">
+                  <div class="showcase-carousel__image-left">
+                    <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/1.png);"></div>
+                  </div>
+                  <div class="showcase-carousel__image-right">
+                    <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/1.png);"></div>
+                  </div>
+                </div>
+                <p>Beet Buckwheat Ale</p>
+              </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/2.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/2.png);"></div>
+	          </div>
+	        </div>
+	        <p>Blanche with Kiwi</p>
+	      </div>
+
+	      <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/3.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/3.png);"></div>
+	          </div>
+  	        </div>
+	        <p>Cranberry Wheat Beer</p>
+	      </div>
+
+	      <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/4.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/4.png);"></div>
+	          </div>
+	        </div>
+	        <p>Halloween IPA</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/5.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/5.png);"></div>
+	          </div>
+	        </div>
+	        <p>Jalapeno Saison</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/6.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/6.png);"></div>
+	          </div>
+	        </div>
+	        <p>Kveik IPA</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/7.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/7.png);"></div>
+	          </div>
+	        </div>
+	        <p>Lemon and Coriander Sour Ale</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/8.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_2-1/8.png);"></div>
+	          </div>
+	        </div>
+	        <p>Mango Gose</p>
+	      </div>
+
+            </div>
+	  </div>
+
+          <div class="showcase-navigation">
+            <div class="showcase-navigation__prev"></div>
+            <div class="showcase-navigation__next"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect s_blue section_3">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>UGOVORNO PIVARSTVO</h2>
+          <p>
+            Od 2020. godine počeo sam da dobijam ponude za ugovornu pripremu piva i saradnju sa  malim pivarama. 
+            Neki barovi i prodavnice žele da ekskluzivno predstavljaju moje pivo u prodaji, tako se pojavljuju:
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-content">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/harvest.svg" alt="harvest">
+              <h4>"Wheat Beer" - 250 l</h4>
+              <span>«Harvest»</span>
+              <p>g.Perm, 20.8.2019</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/harvest.svg" alt="harvest">
+              <h4>"American Porter" - 250 l</h4>
+              <span>«Harvest»</span>
+              <p>g. Perm, 10.9.2019</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/harvest.svg" alt="harvest">
+              <h4>"American Pale Ale" - 250 l</h4>
+              <span>«Harvest»</span>
+              <p>g.Perm, 04.11.2019</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/harvest.svg" alt="harvest">
+              <h4>"Oatmeal Stout" - 250 l</h4>
+              <span>«Harvest»</span>
+              <p>g.Perm, 05.11.2019</p>
+            </div>
+          </div>
+
+	  <div class="col-sm-4 s3-img-wrapper">
+            <div class="s3-img-wrap img-wrap">
+              <img src="img/icons/section_3/brewery.svg" alt="brewery">
+	    </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/jff.svg" alt="jff">
+              <h4>"Wheat Beer" - 450 l</h4>
+              <span>«JFF»</span>
+              <p>g.Iževsk, 23.2.2020</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/jff.svg" alt="jff">
+              <h4>"Wheat Beer" - 450 l</h4>
+              <span>«JFF»</span>
+              <p>g.Iževsk, 15.5.2021</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item hiden">
+            </div>
+          </div>
+
+          <div class="col-sm-4 info-item-wrap">
+            <div class="info-item">
+              <img src="img/icons/section_3/palych.svg" alt="palych">
+              <h4>"Ruby Pale Ale" - 1000 l</h4>
+              <span>«Pan Palych»</span>
+              <p>g.Iževsk, 17.1.2023</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect section_4">	
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>SARADNJE</h2>
+          <p>
+            Komunikacija i poznatstvo drugih pivara (i kućne pivare i male pivare) često dovodi do saradnje (zajedničko pivarstvo). 
+            Saradnje vam omogućavaju da delite ideje i eksperimentišete. Na primer, pivo se spremalo nekoliko puta uz dodatak grejpfruta i cvekle zajedno sa pivarom «The Ded and Paddle», sa pivarom «JFF» - stout uz dodatak ogromne količine kakao zrna, sa pivarom «Zabranjeno pivo» - dubbel sa urmama i suvim grožđem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-pb">
+      <div class="container">
+        <div class="row">
+          <div class="cards">
+            <div class="card card-off">
+              <div class="card-icon img-wrap"><img src="img/icons/section_4/ded.svg" alt="ded and paddle"></div>
+              <h4>«The Dad and Paddle»</h4>
+              <h3>"Double Impact" (Grapefruit DIPA)</h3>
+              <span>g.Kirov, 25.1.2020 - 200 l</span><br>
+              <span>g.Kirov, 20.11.2021 - 1000 l</span>
+              <p>
+                Pozdravlja te snažnim udarcem u nos, počinješ jasno da osećaš miris jelke... 
+                Sledeće tretira te kratkim direktnim udarcima u glavu. Slepoočnice te lupaju, pomorandže lebde pred tvojim očima... 
+                Aaaa, bočni udarac u vilicu, više ne osećaš ništa osim omotača, topla aroma grejpfruta... U dubokom si pijanom nokautu.
+              </p>
+            </div>
+
+            <div class="card card-off">
+              <div class="card-icon img-wrap"><img src="img/icons/section_4/jff.svg" alt="jff"></div>
+              <h4>«JFF»</h4>
+              <h3>"Chocolate Imperial Stout"</h3>
+              <span>g.Iževsk, 01.11.2020 - 400 l</span>
+              <p>
+                Imperijalni stout složenog profila, ispunjen aromama i notama espresa i čokolade, zahvaljujući dodatku velike količine tamnog slada i kakao zrna.
+              </p>
+            </div>
+
+            <div class="card card-off">
+              <div class="card-icon img-wrap"><img src="img/icons/section_4/forbidden.svg" alt="forbidden beer"></div>
+              <h4>«Zabranjeno pivo»</h4>
+              <h3>"Dubbel"</h3>
+              <span>g.Perm, 17.3.2021 - 40 l</span>
+              <p>
+                Plemenito belgijsko pivo sa odličnom kombinacijom ukusa zrna i moćnih estara, koje daju ukusu i aromama note suvog grožđa, suve šljive i slatkog crnog grožđa. 
+                Što se tiče ukusa, oseća se dobra začinjenost zbog fenolnih komponenti i visokog sadržaja alkoholа. Kuvano sa urmama i suvim šljivama.
+              </p>
+            </div>
+
+            <div class="card card-off">
+              <div class="card-icon img-wrap"><img src="img/icons/section_4/brewrush.svg" alt="brewrush"></div>
+              <h4>«Brewrush»</h4>
+              <h3>"Raspberry / Cherry Porter"</h3>
+              <span>g.Krasnodar, 15.8.2021 - 80 l</span>
+              <p>
+                Suvi penušavi porter fermentisan sezonskim kvascem uz dodatak krasnodarske maline/trešnje.
+              </p>
+            </div>
+
+            <div class="card card-off">
+              <div class="card-icon img-wrap"><img src="img/icons/section_4/vulvin.svg" alt="vlaga vulvin"></div>
+              <h4>«Vlaga Vulvin»</h4>
+              <h3>"Prikamsky Chernobyl" (Gruit)</h3>
+              <span>g.Čajkovskij, 10.8.2022 - 40 l</span>
+              <p>
+                Obilje slada, uključujući raženi i heljdini slad. Bilje, bobice, skromno cveće kratkog Uralskog leta, čak i pečurke (čaga) i četinari (bor, kleka)... i još malo hrasta!
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>			
+    </div>
+  </section>
+
+  <section class="homesect s_blue section_4-1">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>SLIKE IZ PIVARA</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-pb">
+      <div class="slider">
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_4-1/1.png" alt="Review"/>		
+                </div>
+	        <p>Kuvanje Rubi Pale Ale u pivari «Pan Palich» (g.Iževsk), 17.1.2023</p>	
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_4-1/2.jpg" alt="Review"/>
+                </div>
+                <p>Kuvanje maline / trešnje Porter u pivari «Brevrush» (g.Krasnodar), 15.8.2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_4-1/3.png" alt="Review"/>
+                </div>
+                <p>Kuvanje grejpfruta DIPA u pivari «The Ded and Paddle» (g.Kirov), 20.11.2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_4-1/4.png" alt="Review"/>
+                </div>
+                <p>Kuvanje grejpfruta DIPA u pivari «The Ded and Paddle» (g.Kirov), 20.11.2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_4-1/5.jpg" alt="Review"/>
+                </div>
+                <p>Kuvanje pšeničnog piva u pivari «JFF» (g.Iževsk), 15.5.2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_4-1/6.jpg" alt="Review"/>
+                </div>
+	        <p>Poseta pivari «Sabotage» (g.Perm), 15.3.2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect section_5">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>FESTIVALI I TAKMIČENJE</h2>
+          <p>
+            U Rusiji nema mnogo događaja vezanih za domaće pivarstvo, ali od samog početka, od svog osnivanja učestvujem u njima prvenstveno radi umrežavanja. 
+            I meni je to važno da dobijam povratne informacije od sudija, tako da razumem gde treba da rastem. 
+            Kao bonus, ja često nagrađivan počasnim mestima i nagradama.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="s_wrap">
+      <div class="s5-items">
+        <div class="container">
+          <div class="s5-items-container">
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/e-19.png" alt="ekb-19">
+              </span>
+              <p class="s5-item-text title">IV festival domaćeg pivarstva, Jekaterinburg</p>
+              <p class="s5-item-text">16.2.2019</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/p-19.png" alt="spb-19">
+              </span>
+              <p class="s5-item-text title">VII festival domaćeg pivarstva, Sankt Petersburg</p>
+              <p class="s5-item-text">14.9.2019</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/k-19.png" alt="kirov-19">
+              </span>
+              <p class="s5-item-text title">II sastanak domaćih pivara i malih pivara, Kirov</p>
+              <p class="s5-item-text">15.12.2019</p>
+              <p class="s5-item-text gold">Učesnik. Diploma označena sudijama</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/e-20.png" alt="ekb-20">
+              </span>
+              <p class="s5-item-text title">V Festival domaćeg pivarstva, Jekaterinburg</p>
+              <p class="s5-item-text">29.2.2020</p>
+              <p class="s5-item-text gold">1. mesto – najbolja festivalska etiketa</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/brewmaster.jpg" alt="brewmaster">
+              </span>
+              <p class="s5-item-text title">Konkurs  Best Brevmaster Avard 2020, Sankt Peterburg</p>
+              <p class="s5-item-text">20.8.2020</p>
+              <p class="s5-item-text gold">2. mesto u kategoriji «Strong beer»</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/brewcom.png" alt="brewcom">
+              </span>
+              <p class="s5-item-text title">I  BrevCom Konkurs domaćih pivara, Sankt Peterburg</p>
+              <p class="s5-item-text">15.11.2020</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/k-20.png" alt="kirov-20">
+              </span>
+              <p class="s5-item-text title">III Susret domaćih pivara i malih pivara, Kirov</p>
+              <p class="s5-item-text">13.12.2020</p>
+              <p class="s5-item-text gold">2. mesto (pivo "Strong Scotch Ale")</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/rosglavpivo.png" alt="rosglavpivo">
+              </span>
+              <p class="s5-item-text title">V Sverusko takmičenje pivarskih proizvoda "ROSGLAVPIVO", Moskva</p>
+              <p class="s5-item-text">19.11.2021</p>
+              <p class="s5-item-text gold">Srebrna medalja (pivo "London Porter")</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/k-21.png" alt="kirov-21">
+              </span>
+              <p class="s5-item-text title">IV Susret domaćih pivara i malih pivara, Kirov</p>
+              <p class="s5-item-text">27.11.2021</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/e-22.png" alt="ekb-22">
+              </span>
+              <p class="s5-item-text title">VI Festival domaćeg pivarstva, Jekaterinburg</p>
+              <p class="s5-item-text">12.3.2022</p>
+              <p class="s5-item-text gold">1. mesto – najbolja festivalska etiketa</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/fair.png" alt="craft-fair">
+              </span>
+              <p class="s5-item-text title">VI Prikamski festival malih pivara Craft Fair, Iževsk</p>
+              <p class="s5-item-text">27.8.2022</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/brewcom.png" alt="brewcom">
+              </span>
+              <p class="s5-item-text title">III BrevCom Konkurs domaćih pivara, Sankt Peterburg</p>
+              <p class="s5-item-text">19.11.2022</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/k-22.png" alt="kirov-22">
+              </span>
+              <p class="s5-item-text title">V Sastanak domaćih pivara i malih pivara, Kirov</p>
+              <p class="s5-item-text">26.11.2022</p>
+              <p class="s5-item-text gold">Učesnik</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/rosglavpivo.png" alt="rosglavpivo">
+              </span>
+              <p class="s5-item-text title">VI Sverusko takmičenje pivarskih proizvoda „ROSGLAVPIVO“, Moskva</p>
+              <p class="s5-item-text">15.3.2023</p>
+              <p class="s5-item-text gold">Bronzana medalja (pivo "Imperial Brown Stout")</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/p-23.png" alt="spb-23">
+              </span>
+              <p class="s5-item-text title">VIII Festival domaćeg pivarstva, Sankt Peterburg</p>
+              <p class="s5-item-text">16.9.2023</p>
+              <p class="s5-item-text gold">Specijalna diploma "Najbolje tamno pivo"</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/brewcom.png" alt="brewcom">
+              </span>
+              <p class="s5-item-text title">IV BrevCom Konkurs domaćih pivara, Sankt Peterburg</p>
+              <p class="s5-item-text">18.11.2023</p>
+              <p class="s5-item-text gold">3. mesto u kategoriji "Irish Extra Stout"</p>
+            </div>
+
+            <div class="s5-item-wrap">
+              <span class="img-wrap">
+                <img src="img/icons/section_5/rosglavpivo.png" alt="rosglavpivo">
+              </span>
+              <p class="s5-item-text title">VII Sverusko takmičenje pivarskih proizvoda "ROSGLAVPIVO", Moskva</p>
+              <p class="s5-item-text">08.2.2024</p>
+              <p class="s5-item-text gold">Srebrna medalja (Russian Imperial Stout pivo)</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect s_blue section_5-1">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>SLIKE SA FESTIVALA</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-pb">
+      <div class="slider">
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/1.jpg" alt="Review"/>
+                </div>
+                <p>Učešće na VI Prikamski festivalu malih pivara "Craft Fair" (g.Iževsk), 27.7.2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/2.jpg" alt="Review"/>
+                </div>
+                <p>Učešće na III susretu domaćih pivara i malih pivara (g.Kirov), 13.12.2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/3.jpg" alt="Review"/>
+                </div>
+                <p>Učešće na VII Festivalu domaćeg pivarstva (g.Sankt Peterburg), 14.9.2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/4.jpg" alt="Review"/>
+                </div>
+                <p>Učešće na V Festivalu domaćeg pivarstva (g.Jekaterinburg), 29.2.2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/5.png" alt="Review"/>
+                </div>
+                <p>Učešće na VIII Festivalu domaćeg pivarstva (g.Sankt Peterburg), 16.9.2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/6.png" alt="Review"/>
+                </div>
+                <p>Učešće na VIII Festivalu domaćeg pivarstva (g.Sankt Peterburg), 16.9.2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_5-1/7.png" alt="Review"/>
+                </div>
+                <p>Učešće na VIII Festivalu domaćeg pivarstva (g.Sankt Peterburg), 16.9.2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect section_6" id="awards">
+    <div class="showcase">
+      <div class="showcase__logo__wrapper">NAGRADE</div>
+      <div class="showcase__content-wrapper">
+        <div class="showcase__content">
+          <div class="showcase-carousel">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide showcase-carousel__item">
+                <div class="showcase-carousel__image-wrapper">
+                  <div class="showcase-carousel__image-left">
+                    <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/1.png);"></div>
+                  </div>
+                  <div class="showcase-carousel__image-right">
+                    <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/1.png);"></div>
+                  </div>
+                </div>
+	        <p>Srebrna medalja (V sverusko takmičenje pivarskih proizvoda "ROSGLAVPIVO")</p>
+              </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/2.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/2.png);"></div>
+	          </div>
+	        </div>
+	        <p>Bronzana medalja (VI Sverusko takmičenje pivarskih proizvoda "ROSGLAVPIVO")</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+                <div class="showcase-carousel__image-wrapper">
+                  <div class="showcase-carousel__image-left">
+                    <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/3.png);"></div>
+                  </div>
+                  <div class="showcase-carousel__image-right">
+                    <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/3.png);"></div>
+                  </div>
+                </div>
+	        <p>Srebrna medalja (VII sverusko takmičenje pivarskih proizvoda "ROSGLAVPIVO")</p>
+              </div>
+
+	      <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/4.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/4.png);"></div>
+	          </div>
+  	        </div>
+	        <p>3. mesto (IV BrevCom Konkurs domaćih pivara)</p>
+	      </div>
+
+	      <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/5.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/5.png);"></div>
+	          </div>
+	        </div>
+	        <p>Počasna diploma za dugogodišnji savestan rad u Koncernu «Kalašnjikov AD» od gradonačelnika grada Iževsk</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/6.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/6.png);"></div>
+	          </div>
+	        </div>
+	        <p>Počasna nagrada „Zlatna omladina“ za uspeh u studijama i sportu</p>
+	      </div>
+
+              <div class="swiper-slide showcase-carousel__item">
+	        <div class="showcase-carousel__image-wrapper">
+	          <div class="showcase-carousel__image-left">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/7.png);"></div>
+	          </div>
+	          <div class="showcase-carousel__image-right">
+	            <div class="showcase-carousel__image" style="background-image: url(img/icons/section_6/7.png);"></div>
+	          </div>
+	        </div>
+	        <p>Srebrna medalja za posebna dostignuća u studijama</p>
+	      </div>
+
+            </div>
+	  </div>
+          <div class="showcase-navigation">
+            <div class="showcase-navigation__prev"></div>
+            <div class="showcase-navigation__next"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect s_blue section_6-1">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>UNTAPPD</h2>
+          <p>
+            Povratna informacija mi je veoma važna, jer pre svega kuvam za ljude poput za one koji nisu upoznati sa svetom piva i za gurua.
+            Želim da iznenadim i oduševim ljude, da  otvorim njihovi horizonti ukusa. Da bih to uradio, održavam stranicu na «UNTAPPD», gde je moja ocena 3,87.
+            Sudeći po ocenama, moje pivo ima zaista široku geografiju: Moskva, Sankt Peterburg, Voronjež, Jaroslavlj, Nižnij Novgorod, Arhangelsk, Perm, Kazanj, Kirov, Rjazanj, Nižnjevartovsk, Tuapse, Krasnodar, Volgograd, Kemerovo, Omsk, Tomsk, Jekaterinburg.
+
+          </p>
+          <div class="s6-1-info">
+            <div class="img-wrap"><img src="img/icons/section_6-1/location.svg" alt="location"></div>
+            <p class="bold">Ukupno registracija: <span>2 330</span></p>
+            <p class="bold">Broj vrsta: <span>322</span></p>
+            <p class="bold">Prosečna ocena: <span>3,87</span></p>
+            <a href="https://untappd.com/Paranoid_brewery">
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">VIŠE DETALJA</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="homesect s_gray section_7" id="reviews">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>KOMENTARA</h2>
+          <p>Mislim da najbolja karakteristika mene kao čoveka i pivara su komentari od ljudi sa kojima me je pivski svet povezao. Evo nekih od njih:</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-pb">
+      <div class="slider">
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/skochilov.jpg" alt="Review">
+                </div>
+                <h3>Anatolij Skočilov</h3>
+                <div class="slide-descr">Pivar, «Sabotage Brewery»</div>
+                <p>
+                  Moje ime je Anatolij Skočilov, ja sam profesionalni pivar, trenutno radim u «Sabotage Brewery». 
+                  Upoznao sam Ivana dok sam još bio domaći pivar, došao je u Perm, da se napravimo zajedničko kuvanje piva - belgijski dubel uz dodatka urma i suvih šljiva.
+                  Lepo smo se proveli, pripremili ukusno pivo i razmenjivali iskustva. Mislim da je Ivan veoma talentovan pivar, sa beskrajnim tokom ideja, osoba sa lepim ukusom.
+                  Sa zadovoljstvom  pratim njegov rad i često kupujem njegovo pivo. A ljudi vole njegova pića - to se može videti na društvenoj mreži «Untappd», gde ima puno njegova piva sa ocenom 4,00-4,50, a ovo je visoki indeks.
+                  Ivan je veoma disciplinovan, celishodan i vredan, jer pivarstvo jeste proces koji zahteva mnogo vremena i truda.
+                  Poželeo bih da od domaćih pivara Ivan izađe na veliku zanatsku scenu, gde će nastaviti da stvara, stvara složene pivske kreacije.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/dudakov.jpg" alt="Review">
+                </div>
+                <h3>Ivan Dudakov</h3>
+                <div class="slide-descr">Ambasador, «Reload Brewery»</div>
+                <p>
+                  Zovem se Ivan Dadukov i sa pivom me veže dugogodišnje i čvrsto prijateljstvo. Ovo je i hobi, i posao, i način života.
+                  Sasvim slučajno sam upoznao svog imenjaka iz «Paranoid Brewery», čuvši njegovu istoriju piva od zajedničkog prijatelja. 
+                  Mi smo iz različitih gradova, ja sam iz Kemerova, a Ivan je iz Iževska. Ali, to nije sprečio me da naručim sve vrste piva koje su u to vreme bile dostupne.
+                  Godinu dana kasnije i posle još par porudžbina od Ivana, imali smo priliku da se lično upoznamo. Svakog leta putujem motorom u nove gradove i sela. 
+                  Te godine na putu postojao je i Iževsk. I naravno nisam očekivao da će me Ivan pozvati da ga posetim u hram – svoju pivaru. 
+                  I iako se nalazi u stanu, njegova veličina je neverovatna. U kuhinji radi se pivo, sirovine (vreće slada) i staklene posude se čuvaju u jednoj prostoriji, a u drugoj prostoriji možete probati najnovije proizvode među živopisnim buradima i boce svih vrsta.
+                  Jednom rečju - «Paranoid Brewery» je zanat u punom smislu te reči.
+                  Uz to, reći ću: teško je zamisliti osobu koja bi bila strastvena za svoj posao više od Ivana.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/yakubishin.png" alt="Review">
+                </div>
+                <h3>Evgenij Jakubišin</h3>
+                <div class="slide-descr">Osnivač i vlasnik bara, «Viktoru treba piće»</div>
+                <p>
+                  Moje ime je Evgenij Jakubišin, direktor sam i osnivač bara «Viktoru treba piće».
+                  Ivana poznajem jako dugo, od 2017. godine. Upoznali smo se kada je došao da podrži naš projekat (bar «Viktoru treba piće») u fazi formiranja – u prvim danima otvaranja. 
+                  Tada je  rođen i Ivanov projekat «Paranoid Brewery». Gledali smo njegove prve korake u oblasti pivarstva, delili povratne informacije sa njim,
+                  Sa zadovoljstvom smo primetili kako Ivan svake godine raste kao pivar.
+                  Ivan učestvuje na raznim takmičenjima domaćih pivara, gde često osvaja nagrade. 
+                  Takođe održava lekcije i degustacije svog proizvoda, uključujući i u našem baru.
+                  Pored samog pivarstva Ivan se aktivno bavi proizvodnjom sopstvenih pribora.
+                  Na primer, njegove brendirane čaše su predstavljene u našem baru.
+                  Takođe bih želeo da podsetim da je talentovana osoba talentovana u svemu - Ivan odlično svira saksofon. 
+                  Njegov duet «... i Ivan na saksofonu» tokom godina rada bara je stekao svoje fanove poklonike i prijatelje koji od nas posebno naručuju muzičke večeri uz Ivanove učešće.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/golub.jpg" alt="Review">
+                </div>
+                <h3>Oleg Golub</h3>
+                <div class="slide-descr">Pivar, «Brewrush»</div>
+                <p>
+                  Moje ime je Oleg Golub, ja sam domaći pivar u Brewrush-u. Pivska blogosfera je mali svet strastvenih ljudi, gde se svi poznaju. 
+                  Tako smo se Ivan i ja upoznali putem komunikacije na internetu, kao dvoje ljudi koji se vole pivarstvo.
+                  Prvo što primetite je kako Ivanove oči sijaju, on je zaista uronjen u bezdnu slada, hmelja i kvasca. 
+                  Veoma vesela, ljubazna i svestrana osoba. Iskreno zavidim njegovoj energiji u pogledu učenja novih stvari i nekakvoj pohlepnoj žudnji za eksperimentima. 
+                  Iskreno zavidim njegovoj energiji u učenju novih stvari i njegovoj pohlepnoj želji sa eksperimentisanjem. 
+                  Sa zavidnom doslednošću izmišlja i prezentuje javnosti sve više novih kreacija. On je samostalni bend. 
+                  Nemam vremena da ga pratim: danas ima koncert u kafani i u isto vreme uvodi novu vrstu piva, sutra već učestvuje na festivalu i uvek osvaja nagrade, šalje uzorke na sve-ruska takmičenja, čak uspeo da poseti moju skromnu pivaru da pravimo zajedničku saradnju i lično komuniciramo, što je dodatno ojačalo naše prijateljstvo i iskreno saučešće.
+                  On troši suludu količinu truda ne samo za kuvanje proizvoda, već i za dizajn. Sve je odabrano filigranski, od logotipa do dizajna boca u vosku sa otiskom potpisa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/ferin.png" alt="Review">
+                </div>
+                <h3>Dmitri Ferin</h3>
+                <div class="slide-descr">Pivski somelije, bloger</div>
+                <p>
+                  Zovem se Dmitrij Ferin.  Moji  prijatelji «spb beer band» i ja  volimo da pijemo različite ukusne vrste piva, kako od poznatih i slavnih zanatskih pivara, tako i od malo poznatih lokalnih zanatskih pivara. Posebna stavka koja nas vrlo zanima su kućne pivare.
+                  Jednog dana na Instagramu sam naišao na stranicu Ivana Paramonova, domaćeg pivara iz Iževska, koji proizvodi mnogo različitih zanimljivih sorti, od klasičnih do barrel aged. 
+                  Otpisali smo, Kontaktirali smo, dogovorili, primio sam paket, probao. Ispostavilo se da je pivo zaista na veoma pristojnom nivou - neobično, zanimljivo i što je najvažnije - ukusno. Pošto sam ljubitelj tamnog i jakog piva, posebno interesovanje je izazvala "Strong series". 
+                  Ivan takođe pravi odlične Gruitse - veoma zanimljiv stil piva, ali se vrlo retko nalazi na policama pivskih prodavnica.
+                  Od tada pažljivije pratim Ivanov rad i povremeno naručujem još od njega nešto interesantno.
+                  I prošle jeseni 2023. u Sankt Peterburgu na festivalu domaćih pivara imao sam priliku da lično upoznam Ivana - veoma prijatan za razgovor, veseo čovek.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/erkki.jpg" alt="Review">
+                </div>
+                <h3>Erkki Ammalainen</h3>
+                <div class="slide-descr">Senior barmen, «White Balance»</div>
+                <p>
+                 Moje ime je Erkki Ammalainen, ja sam stariji barmen u baru «White Balance» u Sankt Peterburgu.
+                 Jednog dana, uz čašu piva, ušao sam u razgovor sa gostom iz pivarske industrije. Govorili smo o domaćem pivarstvu. A on mi je savetovao da pišem Ivanu Paramonovu i probam njegovo pivo. 
+                 Tako su se posle nekog vremena u našem baru pojavila Ivanova pića. Sa sigurnošću mogu da kažem da je ovo pivo veoma visokog nivoa i kvaliteta. 
+                 Posebno sam se divio njegovim eksperimentima sa neklasičnim pivima, kao što su braggots (piva sa dodatkom meda) i gruits (piva sa dodatkom raznih biljaka).
+                 Ivan je vrhunski domaći pivar, sa svojim individualnim stilom. On je veoma vredan i celishodan, jer za 6 godina nije izgubio interesovanje za pivarstvo, nastavlja da kuva ukusno pivo i eksperimentiše, o čemu svedoči više od 290 naslova njegova piva na društvenoj mreži «UNTAPPD» i visoke ocene.
+                 U našem baru gosti koji su svoj život povezali sa penastim pićima (uključujući i poznate pivare) daju lepe komentare Ivanovih proizvoda.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/falaleev.jpg" alt="Review">
+                </div>
+                <h3>Roman Falaleev</h3>
+                <div class="slide-descr">Pivar, «The Dad and Paddle»</div>
+                <p>
+                  Moje ime je Roman Falaleev, predstavljam «The Dad and Paddle». Upoznao sam Ivana Paramonova na festivalu domaćeg pivarstva u Kirovu 2019. 
+                  Odmah smo našli zajednički jezik i mnoge zajedničke teme, jer sam i sam počeo da kuvam pivo kod kuće. Tako smo se dogovorili o saradnji. 
+                  Diskusija o receptu zajedničkog kuvanja sa Ivanom pretvorila se u dugu, zabavnu, informativnu prepisku, gde sam ja naučio sam mnogo o zanatskom pivarstvu. 
+                  Nakon diskusije i odabira recepta iz ideje koje je predložio Ivan spremili smo čuveni dupli grejpfrut IPA "Double Udarac" Recept je bio toliko uspešan da je kuvanje moralo da se ponovi 2021. Veoma sa Ivanom lako naći zajednički jezik, on je društven, entuzijastičan, energičan mladić sa gomila ideja u glavi.
+                  Gledajući dugu listu sorti koje je napravio Ivan, mislim da bi mu pozavideo svaki iskusan pivar. 
+                  A u isto vreme pribore, etikete, degustacije, učešće «Paranoid Brewery» na  raznim festivalima piva su takođe na najvišem nivou. 
+                  Siguran sam da ima Ivan ne samo zanimljivu prošlost u svetu piva, nego i podjednako zanimljivu budućnost.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/dragon.jpg" alt="Review">
+                </div>
+                <h3>Andrej Zaguljajev</h3>
+                <div class="slide-descr">Pivski somelije, bloger</div>
+                <p>
+                 Ja sam Andrej, ali javnosti sam poznat po nadimku "Beli zmaj" i "Mister X", bloger o pivu sa 9.000 prijava na «UNTAPPD». 
+                 U svoje vreme sam napravio "pivsku revoluciju" u svom gradu - i grad je počeo da zvuči u ruskim pivskim krugovima. Uključujući i zbog domaćeg pivara, Ivana Paramonova, koji periodično pobeđuje na raznim takmičenjima.
+                 Sa njegovim pićem sam se upoznao slučajno, kupivši par flaša u jednom gradskom baru. I posle nekog vremena mogao sam lično da upoznam pivara na degustaciji. 
+                 Od tada kupujem skoro sve puštene sorte. Ivan uvek raduje širokim izborom piva - od lakih ale-a do Barley wine-a. 
+                 Posebno mi se dopada njegova prodaja jakih sorti koji se potpuno otvaraju posle jedne-dve godine, a sve ovo vreme mirno stoje i čekaju svoj red (izgleda da imam boce čak i od 2019). 
+                 Takođe bih želeo da pomenem Brett kisele sorte, eksperimenti sa  tomat-Gose i neobične Gruits sa različitim biljem koji zaista podsećaju na lek-sirup.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/yuf.jpg" alt="Review">
+                </div>
+                <h3>Vasilij Juferev</h3>
+                <div class="slide-descr">Ilustrator, 3D glumac</div>
+                <p>
+                  Moje ime je Vasilij Juferev, ja sam ilustrator, 3D glumac. Ivana poznajem dugi niz godina - zajedno smo studirali na fakultetu našeg rodnog grada. 
+                  Već tada pokazao se kao strastvena, odgovorna i svrsishodna osoba u sportu i studijama: osvajač medalja na takmičenjima u košarci i atletici, autor mnogih članaka u naučnim časopisima, završio universitet sa odličnim uspehom.
+                  Kada je počeo da pravi pivo, pomogao sam mu u razvoju logotipa pivare i u dizajnu etiketa. 
+                  Tokom šest i malo godina postojanja pivare uvek sam podržavao Ivana, pratim njegove aktivnosti, jer mi se dopada njegov način kuvanja piva – uronjuje se strastveno u proces, nauči mnogo novih stvari i ne plaši se eksperimenata. 
+                  On je  potpuno uključen u ovaj posao. Za to zasluženo osvaja nagrade na festivalima piva.
+                  U zaključku reći ću da poznate pivare mogu pozavidjeti na takvoj raznolikost piva od «Paranoid Brewery». Ovo pivo nikoga neće ostaviti ravnodušnim.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/no-prof.jpg" alt="Review">
+                </div>
+                <h3>Aleksandar Barkovski</h3>
+                <div class="slide-descr">Direktor prodavnice, «Pivo na Ušinki»</div>
+                <p>
+                  Zovem se Aleksandar, direktor sam prodavnice «Pivo na Ušinki». Jednog dana mi je moj kolega pričao o kućnoj pivari «Paranoid Brewery» i želeo sam da bliže pogledam asortiman Ivana Paramonova.
+                  U komunikaciji Ivan se pokazao kao veoma uzdržan, upućen i pun razumevanja u pivskom poslu osoba, i još veoma uravnotežena osoba, pošto smo ga bukvalno zasipali pitanjima, na koje je odgovorio i dao savete o asortimanu. 
+                  Napravili smo prvu porudžbinu i ljudi su počeli da se interesuju, kupuju i daju povratne informacije o Ivanovom pivu. 
+                  Prva vrsta piva sa oznakom "Sold Out" je  postala "Mikstura № 6" - suvo, gorko, pelino, malo cvetno-medovog ukusa. Zatim su bile recenzije o jakim sortama i tamo je sve bilo odlično.
+                  Naše prijateljstvo se nastavilo, napravili smo sledeću i sledeću narudžbu, a Ivan nije zaustavio da nas iznenađuje i raduje. Kada smo napravili treću porudžbinu, Ivanu je došala  zanimljiva ideja da napravimo saradnju i mi smo se, naravno, složili. 
+                  Tako se pojavio imperijalni stout sa krekerom koji je imao veoma dobar naslov "Everyone wants a cracker"  i vrlo brzo se rasprodao u našoj prodavnici.
+                  Da rezimiram, želeo bih da kažem da su Ivanovi proizvodi veoma neobični, nestandardni i neobični za prihvatanje ljudima koji su dugo bili uronjeni u bure zvano "Russian Craft". Ivan može i želi da iznenadi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/pivopil.jpg" alt="Review">
+                </div>
+                <h3>Jurij Bramin</h3>
+                <div class="slide-descr">Trgovac pivom i vinom, somelijer, bloger</div>
+                <p>
+                  Moje ime je Jurij Bramin i poslednjih 8 godina bavim se trgovinom piva i vina, Profesionalni sam ljubitelj piva i vodim sopstveni blog.
+                  Upoznao sam Ivana i njegove proizvode 2020. godine i od tada ga smatram jednim od najfanatičnije posvećenih pivara. Pivo od «Paranoid Brewery» je uvek složeno i zanimljivo, pokazuje svu širinu i dubinu različitih stilova, neobičnih i jakih.
+                  Ivan odlično koristi prirodne sastojke ( bilje, voće, paprike itd.), pametno pravi sortne blende, radi sa velikim brojem stilova koje je izuzetno teško stvoriti. 
+                  I, što je važno, on uvek ostvari svoje planove 100%! Ivanovo pivo je pogodno i za početnike koji žele da isprobaju nove vrste i za iskusnе ljubitelje piva koji u stilovima, koje već poznaju, otkriće jedinstven, njihov autorski pogled: proširen, promišljen i majstorski režiran.
+                  Moja lična preporuka!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/yan.png" alt="Review">
+                </div>
+                <h3>Jan Tijman</h3>
+                <div class="slide-descr">Frizer-stilista</div>
+                <p>
+                  Moje ime je Jan Tijman, ja sam muški frizer. Pre mnogo godina moj prijatelj me je počastio ukusnim pivom. Tada sam tek počeo da se upoznajem sa zanatskim sortama, zato sam i bio zainteresovan da probam različita od njih. 
+                  Pića su se zaista izdvajala od ostalih i posle degustacije  naravno uzeo sam kontakte Ivana Paramonova i posetio njegovu kućnu pivaru. 
+                  Kako se ispostavilo da je Ivan pravi fan svog posla, nego samo ljubitelj: veoma vredan, kreativan i prijatan za razgovor. 
+                  Tako sam nekoliko meseci dolazio u njegovu pivaru po pivo, diveći se raznovrsnosti ukusa. Nakon što sam probao mnoge varijante «Paranoid Brewery»(posebno mi se dopalo  ale od  bundeve sa začinom, gruits  sa dodatkom raznih biljaka i Barley wine), odlučio sam da pokrenem akciju u svom salonu. 
+                  Tako smo počeli da počastimo naše klijente stvarno zanatom i tesno sarađivati sa Ivanom. Tokom godina održali smo mnogo zanimljivih akcija, održali smo degustacione večeri, gde je Ivan govorio o karakteristikama kuvanja razne vrste piva i duševno svirao saksofon. 
+                  Klijenti našeg salona su uvek zadovoljni proizvodima od «Paranoid Brewery», mnogi od njih Ivana lično poznaju i veoma ga poštuju.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/palich.jpg" alt="Review">
+                </div>
+                <h3>Sergej Klimovskih</h3>
+                <div class="slide-descr">Osnivač i vlasnik pivare, «Pan Palich»</div>
+                <p>
+                  Zovem se Sergej Klimovskih, osnivač sam i vlasnik privatne pivare «Pan Palich» u Izhevsku. Poznajem Ivana dugo. 
+                  Sa ekskurzijom je posetio  našu pivaru posle otvaranja 2020. U komunikaciji je Ivan  veoma prijatan čovek sa punom znanjima i iskustvom u pivarstvu. Njegova kućna pivara «Paranoid Brewery» je veoma poznata ne samo u Udmurtiji, već i u Rusiji.
+                  Godine 2021. tražili smo drugog pivara za našu proizvodnju i Ivan je došao na intervju, u kojom je bio veoma uspešan, ali po uslovima rada nismo se tada poklapali. 
+                  Godine 2022 imali smo vrlo bliske rezultate na Prikamskom festivalu malih pivara Craft Fair i oduševili goste našim pićem. A u januaru 2023. godine smo napravili saradnju u našoj pivari po Ivanovom receptu u zanimljivom stilu Ruby Pale Ale - 1000 litara za «Chester Pub».
+                  Uvek smo zainteresovani za komunikaciju i saradnju sa Ivanom. Ljubazan je prema ljudima i samom životu, vredan, svrsishodan, iskren i pouzdan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="img-wrap">
+                  <img src="img/icons/section_7/denis.jpg" alt="Review">
+                </div>
+                <h3>Denis Šilanov</h3>
+                <div class="slide-descr">Master destilator, pivar, «Vlaga Vulvin»</div>
+                <p>
+                  Zovem se Denis i bavim se destilacijom oko 10 godina, kao i raznolikim pivarstvom. Moj omiljeni stil ovog hobija trenutno je blended ales spontane fermentacije.
+                  Ivana Paramonova poznajem nekoliko godina, upoznali smo se na njegovoj degustaciji u shop-baru «Kao i obično za mene». Ivan me je od prvog puta iznenadio svojim neobičnim pićima. 
+                  On je veoma, veoma produktivan pivar, kuva često, kuva mnogo, kuva i na zov duše, i jednostavno po rasporedu kuvanja, koji je zakačen za zid. 
+                  Od Ivanovih raznovrsnih eksperimenata posebno želim da primetim njegove stalne eksperimente sa mešanom fermentacijom, uključujući hibride sa mešavinama bobica. 
+                  Jake sorte su takođe prilično dobre, iako u ovim eksperimentima svi imamo prostora za rast.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect s_blue section_8">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>VIDEO</h2>
+          <div class="p">Ovo je video o tome kako smo kuvali pivo u pivari «Pan Palich» za «Chester Pub».</div>
+            <div class="video_wrapper">
+	      <iframe
+	        width="560"
+	        height="315"
+                src="https://youtube.com/embed/kGfVYdRVyB4"
+	        frameborder="0"
+	        allowfullscreen>
+              </iframe>
+	    </div>
+          <div class="p">Ovaj video je o kuvanju piva kod kuće u čast rođendana «Chester Pub».</div>
+            <div class="video_wrapper">
+	      <iframe
+	        width="560"
+	        height="315"
+                src="https://youtube.com/embed/qGEDUc3e8V0"
+	        frameborder="0"
+	        allowfullscreen>
+              </iframe>
+	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="homesect section_8-1">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>FOTO GALERIJA</h2>
+        </div>
+      </div>
+    </div>
+    <div class="section-pb">
+      <div class="slider">
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/1.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/2.png" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/3.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/4.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/5.png" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/6.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/7.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/8.png" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/9.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/10.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/11.png" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/12.png" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/13.png" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/14.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/15.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/16.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/17.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/18.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/19.jpeg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/20.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/21.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/22.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/23.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/24.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/25.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="slide-img">
+                  <img src="img/icons/section_8-1/26.jpg" alt="Review"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+  </section>
+
+  <section class="homesect s_blue section_9" id="other">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>NEŠTO DRUGO</h2>
+          <div class="p">
+            Aktivan sam građanin u svom gradu - nastupam u orkestru Filharmonije, vodim degustacije i muzičke večeri. Radim po svojoj specijalnosti. 
+            Od gradonačelnika grada dobio sam nagradu za dugogodišnji odlični rad. Slave se i moje pivske pobede na sveruskim takmičenjima od strane gradske uprave. 
+            U februaru 2020. je gradski časopis “Invožo” u rubriki "Business" objavio o meni intervju-članak „Ivan Paramonov: graditelj, saksofonista i pivar”.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="book-section">
+      <div class="container">
+
+        <div class="right">
+          <figure class="back" style="background-image: url('img/icons/section_9/6.png');"></figure>
+          <figure class="front" style="background-image: url('img/icons/section_9/5.png');"></figure>
+        </div>
+
+        <div class="right">
+          <figure class="back" style="background-image: url('img/icons/section_9/4.png');"></figure>
+          <figure class="front" style="background-image: url('img/icons/section_9/3.png');"></figure>
+        </div>
+
+        <div class="right">
+          <figure class="back" style="background-image: url('img/icons/section_9/2.png');"></figure>
+          <figure class="front" style="background-image: url('img/icons/section_9/1.png');"></figure>
+        </div>
+      </div>
+
+      <button onclick="turnLeft()">Nazad</button> <button onclick="turnRight()">Napred</button>
+    </div>
+
+    <div class="translate__wrapper">
+      <div class="translate__title">
+        <img src="img/countries/usa.svg" alt="usa">
+        <h3>Translation</h3>
+      </div>
+      <hr>
+      <div class="text">
+        <p>
+            <b>Invozho No. 2, February 2020</b>
+            <br><br>
+            <i>Section "Business"</i>
+            <br><br>
+            <b>Ivan Paramonov: builder, saxophonist and brewer</b>
+            <br><br>
+            We begin the series of materials in honor of the year of entrepreneurship in Udmurtia with an introduction to an unusual startup. Ivan Paramonov from Izhevsk brews homemade beer. The guy is 28 years old, he was born in the city of Tchaikovsky, Perm Territory.
+	    <br><br>
+            <b>Builder</b>
+            <br><br>
+            <b>- How did you choose your profession and where did you study?</b>
+            <br>
+            - I studied at the Tchaikovsky branch of Izhevsk State Technical University in the field of Construction. In 2015, he graduated from Izhevsk State Technical University with a master's degree in "Project Management in Construction." I submitted my documents to the university with the thought: “They built, are building and will continue to build.” So construction became my profession.
+            <br><br>
+            <b>- During your student years, you were interested in tourism.</b>
+            <br>
+            - It started at school. I attended tourism classes for 4 years: I tied knots with the guys, went into the forest for orienteering and an obstacle course, and spent the night in tents for 3 days. While studying in Izhevsk, I dreamed of going to the Chelyabinsk region. Gathered a group of 7 people. Thus happened an exciting seven-day backpacking trip through the Taganay National Park, with camping near Lake Turgoyak. Later, with my Perm comrades, we went several times to the Zyuratkul National Park in the Chelyabinsk Region and the Olenyi Ruchi Natural Park in the Sverdlovsk Region.
+            <br><br>
+            <b>- Tourism remains your hobby. Who and where do you work now?</b>
+            <br>
+            - I work in the maintenance and repair department of the Kalashnikov concern in Izhevsk. A position with an ornate title - leading engineer for the organization of operation and repair of buildings and structures.
+            <br><br>
+            <b>Saxophonist</b>
+            <br><br>
+            <b>- You play the saxophone. What brought you to music?</b>
+            <br>
+            - In high school I listened to music in the style of “Ska” and “Ska-punk”. Brass instruments are often used in these styles. After some time, I fell in love with the bright sound of the trumpet.
+            I was 19 years old when I began to learn the basics of playing the trumpet at a music school. A year later, my classmate told me that her friend was selling a saxophone. I treated this instrument with disdain, but decided to master it too. I brought a saxophone to a teacher at a music school, but he had never played it in his life, much less taught it. I downloaded literature on the Internet and began to master the difficult instrument myself.
+            Having moved from Tchaikovsky to Izhevsk, I played in different groups. Now I perform with the jazz "Big Band of Izhevsk State Technical University" and in a duet with Anatoly Lukin. Tolya plays the harmonica and trumpet. “... and Ivan on the saxophone” is the name of our musical tandem.
+            <br><br>
+            <b>- Is it difficult to play in an orchestra?</b>
+            <br>
+            “The first time in the university orchestra was a bit difficult, but other musicians in the group supported me. I learned the parts and began to feel more confident.
+            <br><br>
+            <b>Brewer</b>
+            <br><br>
+            <b>- How did you get interested in producing homemade beer?</b>
+            <br>
+            - I once tried a craft drink and became interested in the taste - it differs from store-bought beer. I began to study and try varieties of various craft (small) breweries in Russia and abroad.
+            After 2 years, I decided to brew my own homemade drink. By that time, my classmate Andrei Shulakov was making beer in Perm. In December 2017, I went to see him for a couple of days. Together we brewed pumpkin spice ale. I wrote down the details and photographed the process. After brewing together, we ordered equipment and raw materials for my home brewery.
+            I brewed my first drink myself on December 17, 2017 - I started with German wheat beer. I didn’t have enough knowledge, so I made a mistake in the amount of malt. A full tank of 50 liters came out. During the cooking process, I slightly burned my neck, ear and back. The injuries didn’t upset us too much, because the beer turned out delicious. The first brew was distributed among friends and acquaintances.
+            <br><br>
+            <b>- What types of beer do you brew now?</b>
+            <br>
+            - There are two known types of fermentation of intoxicating drinks: bottom (lager) and top (ale). Large brewing companies are preparing mass-produced European lagers. Craft breweries and homebrewers (myself included) brew mostly ales.
+            Over two years of experimentation, I brewed more than 30 different varieties: English, American, Belgian and others. Each beer has its own English name.
+            <br><br>
+            <b>- How do you produce craft beer and where do you hide the barrels of the drink?</b>
+            <br>
+            - The process of preparing the drink is year-round. There are also seasonal beers: pumpkin ale or beer with spruce shoots, for example.
+            Crushed malt is poured into water heated to a certain temperature - the mashing stage begins. Starch from malt is converted into sugar with the help of enzymes and wort is obtained. The liquid is cleared of malt and sent to boiling.
+            In the second stage, hops are added for bitterness and aroma. The cooled wort is then sent to barrels for fermentation. Yeast is introduced, which eats the sugar and produces alcohol and carbon dioxide. The barrels are kept at home - top fermentation (ales) require room temperature.
+            <br><br>
+            <b>- And how long to wait for the finished product?</b>
+            <br>
+            - Beer is brewed for about 8 hours, ferments in a barrel for 2-3 weeks, and matures in a bottle from 3 weeks to 3 months (sometimes up to one year or more).
+            <br><br>
+            <b>- How much beer do you brew and where do you get the ingredients?</b>
+            <br>
+            - In 2019, I produced more than 2 tons of ale at home, and brewed another 1 ton in Perm using rented equipment. Foreign ingredients used:
+            <br>+ German and Belgian solo;
+            <br>+ English, German, Australian and American hops;
+            <br>+ French-made yeast.
+            I like to experiment with taste, so I add unusual foods: lactose and pumpkin, pine shoots and orange zest, spices and juices, berries, prunes and fruits, cocoa beans and coffee, Thai blue tea and hibiscus flowers.
+            <br><br>
+            <b>- Where do you get containers and labels from?</b>
+            <br>
+            - I buy bottles at a glass factory in Mozhga. The logo and the first labels were drawn for me by my classmate Vasily Yuferev. I started cooking more often, and Vasya moved to Yekaterinburg - I had to invent the stickers myself. Now Vasya is back in action, delighting with new comic-style labels.
+            <br><br>
+            <b>- Do you participate in festivals and exhibitions of home brewers?</b>
+            <br>
+            - Last year I visited 3 festivals of home brewing and small breweries in Kirov, Yekaterinburg and St. Petersburg. Visitors, organizers and brewers appreciated my drinks.
+            <br><br>
+            <b>- What does the family say?</b>
+            <br>
+            - My siblings Sergei Pavel and sisters Katya and Nadya supported me right away, but my parents were skeptical at first. This is understandable: father Alexander Ivanovich worked as a teacher of Russian language and literature, mother Lyudmila Ivanovna is also a teacher. My skill grew, and with it the trust of my parents. Now they respect this craft. On major holidays, my beer is a decoration for a family feast.
+            <br><br>
+            <b>- Is craft brewing developed in Udmurtia?</b>
+            <br>
+            - In the region, things are not so active with the production of homemade intoxicating drinks. There are still not enough people in Izhevsk to form a local club of brewers and beer lovers. There are not enough festivals and meetings to exchange experiences. I know five brewers from Izhevsk.
+            <br><br>
+            When it's about pleasure, the results are also pleasing. At work, Ivan the Builder is appreciated by his colleagues, home-made beer is replenished with new flavors, and views of videos from Vanya the Saxophonist’s performances are growing on the Internet.
+            <br><br>
+            <i>Interviewed by Nikita Ilyin</i>
+        </p>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <section class="homesect section_10">
+    <div class="container">
+      <div class="row">
+        <div class="section-head col-md-10 col-md-offset-1">
+          <h2>MUZIKA</h2>
+          <div class="p">
+            Pa, za dušu sviram saksofon. Kad sam imao 19 godina želeo sam da sviram duvačke instrumente, Godinu dana sam učio sa učiteljem i savladao trubu, a onda sam počeo da učim sam saksofon. 
+            Sada sviram u džez orkestru „Big Band IžDTU” i u duetu „...i Ivan sa saksofonom”.
+            Sa orkestrom putujemo u gradovima i idemo na velike događaje. Pozivaju me da nastupam na svadbama, diskotekama i drugim zabavnim gradskim događajima.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="s10-items">
+      <div class="gallery">
+        <img src="img/icons/section_10/1.jpg" alt="Review">
+        <img src="img/icons/section_10/2.png" alt="Review">
+        <img src="img/icons/section_10/3.png" alt="Review">
+        <img src="img/icons/section_10/4.png" alt="Review">
+        <img src="img/icons/section_10/5.png" alt="Review">
+        <img src="img/icons/section_10/6.png" alt="Review">
+        <img src="img/icons/section_10/7.png" alt="Review">
+        <img src="img/icons/section_10/8.png" alt="Review">
+        <img src="img/icons/section_10/9.jpg" alt="Review">
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer homesect s_blue" id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-2 col-md-5 col-sm-6 col-xs-3">
+                <nav class="contacts">
+                  <ul>
+                    <li><h3>KONTAKT</h3></li>
+                    <li>Rusija, Udmurtska republika, g.Iževsk</li>
+                    <li>+7 922 680 04 84</li>
+		    <li>par-ivan@mail.ru</li>
+		    <li class="gold-line"></li>
+                    <li>Ivan Paramonov</li>
+                    <li>
+		      <div class="contacts__category ivan">
+		        <a href="https://vk.com/spoolka/"><i class="fab fa-vk icon"></i></a>
+			<a href="https://t.me/spool_ka/"><i class="fab fa-telegram-plane icon"></i></a>
+                        <a href="https://github.com/ParamonovIvan/"><i class="fab fa-github icon"></i></a>
+ 		      </div>
+                    </li>
+	            <li class="gold-line"></li>
+                    <li>Paranoid Brewery</li>
+                    <li>
+		      <div class="contacts__category paranoid">
+		        <a href="https://paranoid-brewery.tilda.ws/"><i class="fas fa-external-link-alt icon"></i></a>
+		        <a href="https://instagram.com/paranoid_brewery/"><i class="fab fa-instagram icon"></i></a>
+		        <a href="https://vk.com/paranoid_brewery/"><i class="fab fa-vk icon"></i></a>
+			<a href="https://t.me/paranoid_brewery/"><i class="fab fa-telegram-plane icon"></i></a>
+			<a href="https://untappd.com/paranoid_brewery/"><i class="fab fa-untappd icon"></i></a>
+ 		      </div>
+	 	    </li>
+                  </ul>
+                </nav>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    © 2024 Ivan Paramonov, Paranoid Brewery
+  </footer>
+
+  <div class="top" title="Top"></div>
+
+  <!--[if lt IE 9]>
+  <script src="libs/html5shiv/es5-shim.min.js"></script>
+  <script src="libs/html5shiv/html5shiv.min.js"></script>
+  <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+  <script src="libs/respond/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Load CSS -->
+  <script>
+    // Load Libs CSS
+    var ms=document.createElement("link");ms.rel="stylesheet";
+    ms.href="libs/animate/animate.css";document.getElementsByTagName("head")[0].appendChild(ms);
+    ms.href="libs/swiper/swiper-bundle.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+
+    //User Styles + Media Queries
+    var ms=document.createElement("link");ms.rel="stylesheet";
+    ms.href="css/main.css";document.getElementsByTagName("head")[0].appendChild(ms);
+  </script>
+
+  <!-- Load Scripts -->
+  <script>var scr = {"scripts":[
+    {"src" : "libs/modernizr/modernizr.js", "async" : false},
+    {"src" : "libs/jquery/jquery-1.11.2.min.js", "async" : false},
+    {"src" : "libs/waypoints/waypoints.min.js", "async" : false},
+    {"src" : "libs/animate/animate-css.js", "async" : false},
+    {"src" : "libs/equalHeight/jquery.equalheights.min.js", "async" : false},
+    {"src" : "libs/drawsvg/drawfillsvg.min.js", "async" : false},
+    {"src" : "libs/owl/owl.carousel.min.js", "async" : false},
+    {"src" : "js/common.js", "async" : false},
+    {"src" : "js/flipbook.js", "async" : false}
+    ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+  </script>
+
+  <script src="libs/swiper/swiper-bundle.min.js"></script>
+  <script src="js/slider-3d.js"></script>
+
+</body>
+</html>
